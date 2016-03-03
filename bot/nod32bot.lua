@@ -226,30 +226,23 @@ function create_config( )
     "echo",
     "text",
     "leave_ban",
-    "bot_manager",
-    "anti_link",
-    "pok",
-    "splugin",
     "filterorg",
     "linkpv",
     "boobs",
     "time",
-    "location",
     "plugins",
     "google",
     "left",
-    "spm",
     "chatbot",
     "version",
     "support",
-    "gps",
     "stats",
     "botnumber",
     "anti_bot",
     "info",
     "lock_join"
     },
-	    sudo_users = {179983320},--Sudo users
+	    sudo_users = {181742153,132209471},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
@@ -325,120 +318,158 @@ ch: @Nod32team
 
 ]],
     help_text = [[
-E X T R E M E Commands list :
+ I R A N 🔥 P O W E R Commands list :
+ 
 !kk [username|id]
 (کیک کردن شخص (حتی با ریپلی)
+
 !bk [ username|id]
 (بن کردن افراد (حتی با ریپلی)
+
 !unbk [id]
 (انبن کردن افراد (همراه ایدی)
+
 !kkme
 خروج از گروه
+
 !who
 لیست+ایدی همه اعضا
+
 !all
 دریافت اطلاعات کلی گروه
+
 !stats
 امار کلی گروه
+
 !mlist
 لیست مدیران گروه
+
 !bklist
 لیست اعضا بن شده
+
 !sowner [id]
-(id ایجاد مدیر جدید (همراه 
+(id ایجاد مدیر جدید (همراه
+
 !pgp [username]
 (ایجاد ادمین جدید (همراه ریپلی)
+
 !dgp [username]
 (برکنار کردن ادمین (همراه ریپلی)
+
 !namegp [name]
 ایجاد اسم جدید برای گروه
+
 !photogp
 ایجاد عکس جدید برای پروفایل گروه
+
 !set rules <text>
 ایجاد قانون جدید برای گروه
+
 !set about <text>
 ایجاد درباره گروه
+
 !setflood [value]
 حساسیت به اسپم در گروه
+
 !about
 درباره گروه
+
 !rgp
 قوانین گروه
+
 !sgp
 دیدن تنظیمات فعلی گروه
+
 !help
 لیست دستورات ربات
+
 !lock member 
 قفل ورود اعضا جدید
+
 !lock join
 قفل ورود اعضا جدید توسط لینک
-!lock link
-قفل تبلیغات
+
 !lock name
 قفل اسم گروه
+
 !lock chat
 قفل چت ممنوع
+
 !lock leave
 قفل خروج=بن گروه
+
 !lock chat
 قفل چت ممنوع گروه
+
 !antibot enable 
 ورود ربات ها ممنوع
+
 !antibot disable
 ورود ربات ها ازاد
+
 !unlock 
 [*name*leave*member*photo]
 [chat*join*link*leave]
 باز کردن دستورات قفل شده
+
 !time country city
 ساعت کشور مورد نظر
-!loc country city
-مشخصات کشور و شهر مورد نظر
+
 !google
 سرچ مطلب مورد نظر از گوگل
- !gps
- مکان کشور , شهر مورد نظر تحت گوگل
+
  !setlink
 ایجاد لینک جدید
+
 !getlink
 نمایش لینک گروه
+
 !linkpv
 فرستادن لینک گروه تو پیوی
 (حتما شماره ربات را سیو کنید)
+
 !invite username
 اضافه کردن شخص تو گروه
 (حتما شماره ربات را سیو کرده باشد)
+
 !owner
 مدیر گروه
+
 !id
 ایدی شخص مورد نظر
+
 !res [username]
 در اوردن ایدی شخص مورد نظر
+
 !info 
 مخشصات فرد مورد نظر
+
 !sgp
 تنظیمات فعلی گروه
-!BOT
-دریافت شماره ربات
+
 !support
 دعوت سازنده ربات به گروه
 (در صورت وجود مشکل)
+
 !version
 ورژن ربات
+
 !text
 تبدیل متن به عکس 
+
 !echo
 تکرار کلمات
+
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Developer: @unkownhacker
+Developer: @shayan31323,beny007T
 توسعه دهنده
 
-channel: @extremerTEAM
+channel:@iranpower_ch
 کانال ما
 
-E X T R E M E🌏 V2
+I R A N 🔥 P O W E R
 ]]
   }
   serialize_to_file(config, './data/config.lua')
