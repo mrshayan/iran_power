@@ -1,13 +1,14 @@
 do
 
 function run(msg, matches)
-  return 'NOD32-BOT v5'.. VERSION .. [[ 
+  return '✅I R A N P O W E R v2✅'.. VERSION .. [[ 
  
   Developer : @shayan31323
   
   Channel : @iranpower_ch
+
   
-I R A N P O W E R🌏 V2
+ I R A N P O W E R🌏 V2
   
   All rights reserved.
   __________________]]
