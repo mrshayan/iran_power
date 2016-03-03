@@ -237,7 +237,7 @@ function create_config( )
     "version",
     "support",
     "stats",
-    "botnumber",
+    "splugin",
     "anti_bot",
     "info",
     "lock_join"
@@ -367,6 +367,12 @@ ch: @Nod32team
 
 !set about <text>
 ایجاد درباره گروه
+
+!filter + کلمه 
+فیلتر کلمه
+
+!listft
+لیست فیلتر شده ها
 
 !setflood [value]
 حساسیت به اسپم در گروه
