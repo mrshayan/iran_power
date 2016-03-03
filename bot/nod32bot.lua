@@ -223,6 +223,7 @@ function create_config( )
     "invite",
     "all",
     "tooti",
+    "calculator",
     "echo",
     "text",
     "leave_ban",
@@ -443,6 +444,9 @@ ch: @Nod32team
 
 !id
 ایدی شخص مورد نظر
+
+!calc 
+ماشین حساب
 
 !res [username]
 در اوردن ایدی شخص مورد نظر
