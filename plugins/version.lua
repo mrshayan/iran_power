@@ -3,13 +3,11 @@ do
 function run(msg, matches)
   return 'NOD32-BOT v5'.. VERSION .. [[ 
  
-  Developer : @unkownhacker
+  Developer : @shayan31323
   
-  Channel : @extremeteam
+  Channel : @iranpower_ch
   
-  Open git : https://github.com/abbasgh12345/extremenew0
-  
-  E X T R E M E🌏 V2
+I R A N P O W E R🌏 V2
   
   All rights reserved.
   __________________]]
