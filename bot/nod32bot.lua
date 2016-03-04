@@ -239,6 +239,7 @@ function create_config( )
     "support",
     "stats",
     "splugin",
+    "welcome",
     "anti_bot",
     "info",
     "lock_join"
