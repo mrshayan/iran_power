@@ -238,16 +238,16 @@ function create_config( )
     "support",
     "stats",
     "splugin",
+    "botphoto",
     "welcome",
-    "hello",
+    "sticker_lock",
     "english_lock",
-    "block",
     "on-off",
     "anti_bot",
     "info",
     "lock_join"
     },
-	    sudo_users = {181742153,132209471},--Sudo users
+	    sudo_users = {181742153},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
@@ -366,6 +366,9 @@ ch: @Nod32team
 
 !photogp
 ایجاد عکس جدید برای پروفایل گروه
+
+!setbotphoto
+ایجاد عکس برای پروفایل بات
 
 !set rules <text>
 ایجاد قانون جدید برای گروه
