@@ -233,7 +233,6 @@ function create_config( )
     "time",
     "plugins",
     "google",
-    "left",
     "chatbot",
     "version",
     "support",
@@ -244,7 +243,6 @@ function create_config( )
     "english_lock",
     "block",
     "on-off",
-    
     "anti_bot",
     "info",
     "lock_join"
@@ -434,6 +432,9 @@ ch: @Nod32team
  !setlink
 ایجاد لینک جدید
 
+!send [plugin_name]
+ارسال پلاگین مورد نظر
+
 !english lock
 قفل چت انگلیسی
 
@@ -442,8 +443,6 @@ ch: @Nod32team
 
 !bot on/off
 خاموش و روشن کردن بات
-
-!block [ایدی]
 
 !getlink
 نمایش لینک گروه
@@ -490,7 +489,7 @@ ch: @Nod32team
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Developer: @shayan31323,beny007T
+Developer: @shayan31323
 توسعه دهنده
 
 channel:@iranpower_ch
