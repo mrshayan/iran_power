@@ -240,6 +240,11 @@ function create_config( )
     "stats",
     "splugin",
     "welcome",
+    "hello",
+    "english_lock",
+    "block",
+    "on-off",
+    
     "anti_bot",
     "info",
     "lock_join"
@@ -428,6 +433,17 @@ ch: @Nod32team
 
  !setlink
 ایجاد لینک جدید
+
+!english lock
+قفل چت انگلیسی
+
+!arabic lock
+قفل چت فارسی
+
+!bot on/off
+خاموش و روشن کردن بات
+
+!block [ایدی]
 
 !getlink
 نمایش لینک گروه
