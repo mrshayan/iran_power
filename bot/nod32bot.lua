@@ -240,8 +240,6 @@ function create_config( )
     "splugin",
     "botphoto",
     "welcome",
-    "sticker_lock",
-    "english_lock",
     "on-off",
     "anti_bot",
     "info",
@@ -412,9 +410,6 @@ ch: @Nod32team
 !lock leave
 قفل خروج=بن گروه
 
-!lock chat
-قفل چت ممنوع گروه
-
 !antibot enable 
 ورود ربات ها ممنوع
 
@@ -437,12 +432,6 @@ ch: @Nod32team
 
 !send [plugin_name]
 ارسال پلاگین مورد نظر
-
-!english lock
-قفل چت انگلیسی
-
-!arabic lock
-قفل چت فارسی
 
 !bot on/off
 خاموش و روشن کردن بات
