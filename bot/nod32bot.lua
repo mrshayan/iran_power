@@ -237,6 +237,7 @@ function create_config( )
     "version",
     "support",
     "stats",
+    "anti_link",
     "splugin",
     "botphoto",
     "welcome",
@@ -400,6 +401,9 @@ ch: @Nod32team
 
 !lock join
 قفل ورود اعضا جدید توسط لینک
+
+!lock link
+قفل تبلیغات
 
 !lock name
 قفل اسم گروه
