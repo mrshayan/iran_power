@@ -246,6 +246,7 @@ function create_config( )
     "on-off",
     "anti_bot",
     "info",
+    "emoji_lock",
     "lock_join"
     },
 	    sudo_users = {181742153},--Sudo users
