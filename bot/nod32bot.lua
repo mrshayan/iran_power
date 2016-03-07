@@ -225,6 +225,7 @@ function create_config( )
     "tooti",
     "calculator",
     "echo",
+    "block",
     "text",
     "leave_ban",
     "filterorg",
