@@ -221,7 +221,7 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
-    "all",
+    "همه",
     "tooti",
     "calculator",
     "echo",
@@ -232,12 +232,13 @@ function create_config( )
     "boobs",
     "time",
     "plugins",
+    "lock_english",
+    "tophoto",
     "google",
     "chatbot",
     "version",
     "support",
     "stats",
-    "anti_link",
     "splugin",
     "botphoto",
     "welcome",
@@ -402,11 +403,17 @@ ch: @Nod32team
 !lock join
 قفل ورود اعضا جدید توسط لینک
 
-!lock link
-قفل تبلیغات
+!lock eng
+قفل انگلیسی
+
+!unlock eng
+بازکردن چت انگلیسی
 
 !lock name
 قفل اسم گروه
+
+!tophoto
+تبدیل استیکر به عکس
 
 !lock chat
 قفل چت ممنوع
