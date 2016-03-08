@@ -806,14 +806,14 @@ local function run(msg, matches)
       load_photo(msg.id, set_group_photo, msg)
     end
   end
-  if matches[1] == 'add' and not matches[2] then
+  if matches[1] == 'اضافه' and not matches[2] then
     if is_realm(msg) then
        return 'اینجا قبلا گروه مادری بود'
     end
     print("group "..msg.to.print_name.."("..msg.to.id..") added")
     return modadd(msg)
   end
-   if matches[1] == 'add' and matches[2] == 'realm' then
+   if matches[1] == 'اضافه' and matches[2] == 'realm' then
     if is_group(msg) then
        return 'اینجا قبلا به رسمیت شناخته شده بود'
     end
@@ -1353,7 +1353,7 @@ return {
   "^[!/](linkpv)$",
   "^[!/](kickinactive)$",
   "^[!/](kickinactive) (%d+)$",
-  "^([Aa]dd)$",
+  
   "^([Rr]em)$",
   "^([Rr]gp)$",
   "^({Aa]bout)$",
@@ -1369,6 +1369,7 @@ return {
   "^([Ll]ock) (.*)$",
   "^([Ss]owner) (%d+)$",
   "^([Ss]owner)$",
+  "^(اضافه)$",
   "^([Oo]wner)$",
   "^([Rr]es) (.*)$",
   "^([Ss]etgpowner) (%d+) (%d+)$",-- (group id) (owner id)
