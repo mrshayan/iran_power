@@ -1286,7 +1286,7 @@ local function run(msg, matches)
         return 'اینجا گروه است'
      end
    end
-    if matches[1] == 'help' then
+    if matches[1] == 'راهنما' then
       if not is_momod(msg) or is_realm(msg) then
         return
       end
@@ -1330,7 +1330,7 @@ return {
   "^[!/](photogp)$",
   "^[!/](pgp) (.*)$",
   "^[!/](pgp)",
-  "^[!/](help)$",
+  "^(راهنما)$",
   "^[!/](clean) (.*)$",
   "^[!/](kill) (chat)$",
   "^[!/](kill) (realm)$",
