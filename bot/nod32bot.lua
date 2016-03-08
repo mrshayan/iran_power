@@ -225,7 +225,6 @@ function create_config( )
     "tooti",
     "calculator",
     "echo",
-    "block",
     "text",
     "leave_ban",
     "filterorg",
@@ -233,7 +232,8 @@ function create_config( )
     "boobs",
     "time",
     "plugins",
-    "lock_english",
+    "fosh_lock",
+    "autoleave",
     "tophoto",
     "google",
     "chatbot",
@@ -396,7 +396,7 @@ ch: @Nod32team
 !sgp
 دیدن تنظیمات فعلی گروه
 
-!help
+راهنما
 لیست دستورات ربات
 
 !lock member 
@@ -404,12 +404,6 @@ ch: @Nod32team
 
 !lock join
 قفل ورود اعضا جدید توسط لینک
-
-!lock eng
-قفل انگلیسی
-
-!unlock eng
-بازکردن چت انگلیسی
 
 !lock name
 قفل اسم گروه
@@ -440,7 +434,7 @@ ch: @Nod32team
 !google
 سرچ مطلب مورد نظر از گوگل
 
- !setlink
+لینک جدید
 ایجاد لینک جدید
 
 !send [plugin_name]
@@ -449,7 +443,7 @@ ch: @Nod32team
 !bot on/off
 خاموش و روشن کردن بات
 
-!getlink
+لینک
 نمایش لینک گروه
 
 !linkpv
