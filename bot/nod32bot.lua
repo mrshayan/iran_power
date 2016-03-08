@@ -233,7 +233,6 @@ function create_config( )
     "time",
     "plugins",
     "fosh_lock",
-    "autoleave",
     "tophoto",
     "google",
     "chatbot",
