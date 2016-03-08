@@ -70,7 +70,7 @@ end
 return {
 	description = "Robot Switch", 
 	usage = {
-        "^(روشن کردن)$"  : enable robot in group",
+        "^(روشن کردن)$",   : enable robot in group",
         "^(خاموش کردن)$"   : disable robot in group" },
 	patterns = {
 	"^(خاموش کردن)$",
