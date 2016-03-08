@@ -1136,7 +1136,7 @@ local function run(msg, matches)
     end
   end]]
 
-    if matches[1] == 'setlink' and not is_realm(msg) then
+    if matches[1] == 'لینک جدید' and not is_realm(msg) then
       if not is_momod(msg) then
         return "این دستور را فقط مدیر و ادمین ها میتوانند استفاده کنند"
       end
@@ -1153,7 +1153,7 @@ local function run(msg, matches)
       savelog(msg.to.id, name_log.." ["..msg.from.id.."] لینک گروه تغییر داده شد")
       return export_chat_link(receiver, callback, true)
     end
-    if matches[1] == 'getlink' then
+    if matches[1] == 'لینک' then
       if not is_momod(msg) then
         return "این دستور را فقط مدیر و ادمین ها میتوانند استفاده کنند"
       end
@@ -1348,8 +1348,8 @@ return {
   "^[!/](sgp)$",
   "^[!/](public) (.*)$",
   "^[!/](mlist)$",
-  "^[!/](setlink)$",
-  "^[!/](getlink)$",
+  "^(لینک جدید)$",
+  "^(لینک)$",
   "^[!/](linkpv)$",
   "^[!/](kickinactive)$",
   "^[!/](kickinactive) (%d+)$",
