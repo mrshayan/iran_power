@@ -1212,7 +1212,7 @@ local function run(msg, matches)
       send_large_msg(receiver, text)
       return
     end
-    if matches[1] == 'setflood' then 
+    if matches[1] == 'حساسیت' then 
       if not is_momod(msg) then
         return "این دستور را فقط مدیر و ادمین ها میتوانند استفاده کنند"
       end
@@ -1344,7 +1344,7 @@ return {
   "^[!/](res) (.*)$",
   "^[!/](setgpowner) (%d+) (%d+)$",-- (group id) (owner id)
   "^[!/](unlock) (.*)$",
-  "^[!/](setflood) (%d+)$",
+  "^(حساسیت)$", (%d+)$",
   "^[!/](sgp)$",
   "^[!/](public) (.*)$",
   "^[!/](mlist)$",
@@ -1374,7 +1374,7 @@ return {
   "^([Rr]es) (.*)$",
   "^([Ss]etgpowner) (%d+) (%d+)$",-- (group id) (owner id)
   "^([Uu]nlock) (.*)$",
-  "^([Ss]etflood) (%d+)$",
+  "^(حساسیت)$", (%d+)$",
   "^([Ss]ettings)$",
   "^([Mm]list)$",
   "^([Ss]etlink)$",
